@@ -4,6 +4,7 @@ public class isSubSetOptimized {
     public static void main(String[] args) {
         System.out.println(isSubsetSum(new int[]{3 , 9}, 9));
     }
+    
     static Boolean isSubsetSum(int arr[], int W) {
         // code here
         int n = arr.length;

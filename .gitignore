@@ -1,26 +1,16 @@
-target/
-bin/
-!.mvn/wrapper/maven-wrapper.jar
+# Ignore compiled class files
+*.class
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
+# Ignore build directory
+/bin/
+/build/
+/out/
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
+# Ignore IDE files
+/.idea/
+/*.iml
+*.log
 
-### NetBeans ###
-nbproject/private/
-build/
-nbbuild/
-dist/
-nbdist/
-.nb-gradle/
-target/
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db

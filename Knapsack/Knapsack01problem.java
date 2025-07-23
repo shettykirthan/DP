@@ -3,6 +3,7 @@ import java.util.*;
 public class Knapsack01problem{
     public static void main(String[] args) {
         System.out.println(knapsack(5, new int[]{10 , 40 , 30  ,50 } , new int[] {5, 4 , 2 , 3}));
+
     }
     
     static int knapsack(int W, int val[], int wt[]) {
@@ -27,4 +28,5 @@ public class Knapsack01problem{
         }
         return dp[n][W];
     }
+    
 }

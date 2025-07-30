@@ -18,7 +18,7 @@ public class count {
     }
     public static void main(String[] args) {
         count obj = new count();
-        int[] wt = {1,2,5};
+        int[] wt = {1,2,5 , 10};
         int W = 5;
         System.out.println("Number of ways to make change: " + obj.change(W, wt));
     }

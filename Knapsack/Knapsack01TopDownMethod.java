@@ -10,7 +10,7 @@ public class Knapsack01TopDownMethod {
     static int knapsack(int W, int val[], int wt[]) {
         // code here
         int n = val.length;
-        int[][] dp = new int[val.length + 1][W + 1];
+        int[][] dp = new int[n + 1][W + 1];
         for (int i = 0; i <= n; i++) {
             dp[i][0] = 0;
         }

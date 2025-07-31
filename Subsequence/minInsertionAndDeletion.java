@@ -14,6 +14,9 @@ public class minInsertionAndDeletion {
         int n = s1.length();
         int m = s2.length();
         // Your code goes here
+        //s1 - heaf , s2 - eap
+        //lcs - ea
+        // heaf - eap - ea - ea
         int lcs = longestCommonSubsequenceRec(s1 , s2);
         
         return (n - lcs) + (m - lcs);

@@ -39,9 +39,11 @@ public class FrogJump{
         }
         return dp[n - 1];
     }
+
+    //K number of jumps
     static int KJumps(int[] arr ,int k){
         int n = arr.length;
-        int[] dp = new int[n + 1];
+        int[] dp = new int[n + 1];      
         dp[0] = 0;
         for(int i = 1 ; i < n ; i++){
             int step = Integer.MAX_VALUE;

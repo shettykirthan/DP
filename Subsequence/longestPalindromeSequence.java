@@ -5,6 +5,11 @@ public class longestPalindromeSequence {
         longestPalindromeSequence lps = new longestPalindromeSequence();
         String s = "bbabcbcab";
         System.out.println("Length of Longest Palindromic Subsequence: " + lps.longestPalindromeSubseq(s));
+        System.out.println("Minimum Deletions to make it a Palindrome: " + lps.minDeletions(s));
+    }
+    int minDeletions(String s) {
+        // code here
+        return s.length() - longestCommonSubsequence(s , rev(s));
     }
     public int longestPalindromeSubseq(String s) {
         return longestCommonSubsequence(s , rev(s));
